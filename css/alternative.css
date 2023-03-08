@@ -22,8 +22,8 @@ html {
 }
 
 body {
-	font-family: "Erode", serif;
-	background-color: #ffffff;
+	font-family: "Georgia", serif;
+	background-color: #BBE1C3;
 	color: #000020;
 	font-size: clamp(16px, 1.5vw, 20px);
 	line-height: 1.1;
@@ -74,7 +74,7 @@ footer {
 	min-width: 80px;
 	display: flex;
 	flex-flow: column;
-	background-color: #301010;
+	background-color: #869D7A;
 	color: #f0f0f0;
 	height: 100%;
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, .1), transparent);
@@ -104,7 +104,7 @@ footer {
 h1 {
 	font-size: clamp(28px, 3vh, 40px);
 	font-weight: 900;
-	font-family:  Telma;
+	font-family: 'Rubik Iso', cursive;;
 	writing-mode: vertical-lr;
 	transform:  rotate(180deg);
 }
@@ -171,7 +171,7 @@ h2 {
 	writing-mode: vertical-lr;
 	font-size: clamp(20px, 2.5vh, 36px);
 	font-weight: 900;
-	font-family:  Telma;
+	font-family:'Rubik Iso', cursive;
 }
 
 .resume-main h2 {
@@ -187,14 +187,14 @@ h2 {
 
 .resume-aside {
 	flex: 1 1 250px;
-	background-color: #282840;
+	background-color:#A7CDBD;
 	color: #f0f0f0;
 	display: flex;
 	flex-flow: column;
 }
 
 .resume-aside a {
-	color: #c0c0ff;
+	color: #5F4BB6;
 }
 
 .resume-aside a:hover {
@@ -230,11 +230,15 @@ h2 {
 }
 
 .language-progress {
-	background-color: #ffff00;
+	background-color: #5F4BB6;
 }
 
 .language-level h6 {
 	width: 100%;
+}
+
+.w-15 {
+	width: 15%;
 }
 
 .w-25 {
